@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login / sign up 
+    </title>
+    <link rel="stylesheet" href="./src/main.css">
+
+</head>
+<body>
+    <div class="contner">
+        <form class="form" id="login">
+            <h1 class="form-title">Login</h1>
+            <div class="form-message form-message-error"></div>
+            <div class="form-input-gp">
+                <input type="text" class="form-input"  placeholder="username or email">
+                <div class="form--input-error-message"></div>
+            </div>
+            <div class="form-input-gp">
+                <input type="password" class="form-input form--input-error" placeholder="password">
+                <div class="form--input-error-message"></div>
+            </div>
+            <button class="form-button" type="submit">continue</button>
+            <p class="form--text">
+                <a href="#" class="form-link">forgot your password</a>
+            </p>
+            <p class="form--text">
+                <a class="form-link" href="./" id="linkCreateAccount">don't have account? create account</a>
+            </p>
+        </form>
+        <form class="form form-hidden" id="createAccount">
+            <h1 class="form-title">Create Account</h1>
+            <div class="form-message form-message-error"></div>
+            <div class="form-input-gp">
+                <input type="text" id="signupUsername" class="form-input"  placeholder="Username">
+                <div class="form--input-error-message"></div>
+            </div>
+            <div class="form-input-gp">
+                <input type="text" class="form-input"  placeholder="Email Address">
+                <div class="form--input-error-message"></div>
+            </div>
+            
+            <div class="form-input-gp">
+                <input type="password" class="form-input form--input-error"  placeholder="password">
+                <div class="form--input-error-message"></div>
+            </div>
+            <div class="form-input-gp">
+                <input type="password" class="form-input form--input-error" placeholder="confirm password">
+                <div class="form--input-error-message"></div>
+            </div>
+            <button class="form-button" type="submit">continue</button>
+            
+            <p class="form--text">
+                <a class="form-link" href="./" id="linkLogin">Already have an account? sign in</a>
+            </p>
+        </form>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html> 

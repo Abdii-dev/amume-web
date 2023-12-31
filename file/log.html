@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /*.btn1 {
+        height: 37px;
+        width: 60px;
+        background-color: red;
+        color: rgb(250, 249, 249);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 10px;
+        color: 0;
+      }
+*/
+      .btn1,
+      .apply {
+        margin-left: 50px;
+        margin-top: 4px;
+        background-color: orange;
+        padding: 0.7rem 1rem;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+      }
+      */ .inp {
+        margin: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action=""
+      style="
+        position: fixed;
+        background-color: aqua;
+
+        top: 30px;
+        left: 40px;
+      "
+    >
+      <h2
+        style="
+          margin-left: 60px;
+          width: 70px;
+          background-color: lavenderblush;
+          color: black;
+        "
+      >
+        Login
+      </h2>
+      <div>
+        <p>
+          <label
+            ><span>User Name: </span
+            ><input type="email" name="emailinput" required class="inp"
+          /></label>
+        </p>
+
+        <p>
+          <label
+            ><span>Email: </span
+            ><input type="email" name="emailinput" required class="inp"
+          /></label>
+        </p>
+
+        <p>
+          <label
+            ><span> Phone Number:</span
+            ><input type="phone" name="phoneinput" required class="inp"
+          /></label>
+        </p>
+        Passward:
+        <input type="password" class="ipn" />
+
+        <div style="display: flex; flex-direction: column; margin-left: 80px">
+          <p>
+            <a href="#" class="btn1">Login</a>
+          </p>
+          <p>
+            <input type="reset" value="forget" class="apply" />
+          </p>
+          <p>
+            <a
+              href="sigup.html"
+              style="background-color: aliceblue; width: 49px"
+              >sign up here</a
+            >
+          </p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
